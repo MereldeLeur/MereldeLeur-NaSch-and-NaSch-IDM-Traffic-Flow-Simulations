@@ -84,8 +84,6 @@ This will:
 
 ## Description of the Code
 
-## Code Structure & Simulation Description
-
 The code runs a complete simulation and post-processing pipeline:
 
 ### 1. **Position Simulation**
