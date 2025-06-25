@@ -20,7 +20,7 @@ This repository contains the Python code used for the traffic flow simulations i
 ## Structure
 
 ```
-traffic_simulation.py          # Main script: runs both NaSch and NaSch+IDM models
+Thesis Cra Simulations.py          # Main script: runs both NaSch and NaSch+IDM models
 NaSch Data/                    # Output CSVs from NaSch simulation
 NaSch Graphs/                  # Plots from NaSch analysis
 NaSch + IDM Data/             # Output CSVs from NaSch+IDM simulation
