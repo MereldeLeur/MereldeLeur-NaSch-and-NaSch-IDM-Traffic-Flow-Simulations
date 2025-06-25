@@ -85,7 +85,7 @@ This will:
 
 If you use this code, please cite:
 
-> de Leur, M. J. M. (2025). _Timeliness Criticality in Supply Chains_. MSc Thesis.
+> de Leur, M. J. M. (2025). _Timeliness Criticality in Supply Chains_. MSc Finance Thesis. Vrije Universiteit Amsterdam.
 
 ---
 
