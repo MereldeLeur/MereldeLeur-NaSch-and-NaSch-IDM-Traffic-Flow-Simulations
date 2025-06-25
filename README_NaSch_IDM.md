@@ -87,6 +87,11 @@ If you use this code, please cite:
 
 > de Leur, M. J. M. (2025). _Timeliness Criticality in Supply Chains_. MSc Finance Thesis. Vrije Universiteit Amsterdam.
 
+This repository builds on the following foundational models:
+
+- Nagel, K., & Schreckenberg, M. (1992). A cellular automaton model for freeway traffic. *Journal de Physique I*, 2(12), 2221–2229. https://doi.org/10.1051/jp1:1992277
+
+- Tian, J., Jiang, R., Li, G., Treiber, M., Jia, B., & Zhu, C. (2016). Improved 2D intelligent driver model in the framework of three-phase traffic theory simulating synchronized flow and concave growth pattern of traffic oscillations. *Transportation Research Part F: Traffic Psychology and Behaviour*, 41, 55–65. https://doi.org/10.1016/j.trf.2016.06.005
 ---
 
 ## Contact
