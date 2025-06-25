@@ -82,17 +82,45 @@ This will:
 
 ---
 
+## Description of the Code
+
+The simulation pipeline consists of three main phases:
+
+### 1. **NaSch Simulation**
+- Simulates a ring road with varying numbers of cars (densities).
+- Each vehicle follows the NaSch rules: acceleration, slowing due to distance, random braking, and movement.
+- Each car’s position is saved per time step in a CSV.
+
+### 2. **Velocity Computation**
+- From saved position data, per-step velocities are computed.
+- Handles wrap-around cases (circular track).
+
+### 3. **Analysis & Plots**
+- Global average speed and flow per density.
+- Loop times: how long a car takes to make one full circle.
+- Delay: time over mean required by a car to finish a lap.
+- Avalanche: sequences of delays interpreted as "traffic jams".
+- Plots showing relationships and critical thresholds (e.g., density where flow peaks).
+
+The same structure is followed for the NaSch + IDM model, with additional heterogeneity:
+- Each car is assigned a random type: risk-averse, normal, or risk-seeking.
+- These affect their headway, max speed, and braking probability.
+
+All results are saved in folders, and graphs are reproducible.
+
+---
+
 ## Citation
 
 If you use this code, please cite:
 
 > de Leur, M. J. M. (2025). _Timeliness Criticality in Supply Chains_. MSc Finance Thesis. Vrije Universiteit Amsterdam.
 
-This repository builds on the following foundational models:
+Also cite the models used:
 
-- Nagel, K., & Schreckenberg, M. (1992). A cellular automaton model for freeway traffic. *Journal de Physique I*, 2(12), 2221–2229. https://doi.org/10.1051/jp1:1992277
+- Nagel, K., & Schreckenberg, M. (1992). A cellular automaton model for freeway traffic. *Journal de Physique I*, 2(12), 2221–2229. https://doi.org/10.1051/jp1:1992277  
+- Tian, J., Jiang, R., Li, G., Treiber, M., Jia, B., & Zhu, C. (2016). Improved 2D intelligent driver model... *Transportation Research Part F*, 41, 55–65. https://doi.org/10.1016/j.trf.2016.06.005
 
-- Tian, J., Jiang, R., Li, G., Treiber, M., Jia, B., & Zhu, C. (2016). Improved 2D intelligent driver model in the framework of three-phase traffic theory simulating synchronized flow and concave growth pattern of traffic oscillations. *Transportation Research Part F: Traffic Psychology and Behaviour*, 41, 55–65. https://doi.org/10.1016/j.trf.2016.06.005
 ---
 
 ## Contact
