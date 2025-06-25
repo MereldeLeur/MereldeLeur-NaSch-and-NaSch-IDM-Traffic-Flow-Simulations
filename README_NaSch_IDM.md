@@ -7,7 +7,7 @@ This repository contains the Python code used for the traffic flow simulations i
 
 ---
 
-## 🚀 Features
+## Features
 
 - Simulate traffic with varying densities and driver types
 - Generate position and velocity data
@@ -16,7 +16,7 @@ This repository contains the Python code used for the traffic flow simulations i
 
 ---
 
-## 📁 Structure
+## Structure
 
 ```
 traffic_simulation.py          # Main script: runs both NaSch and NaSch+IDM models
@@ -28,7 +28,7 @@ NaSch + IDM Graphs/           # Plots from NaSch+IDM analysis
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 Install required Python libraries with:
 
@@ -40,7 +40,7 @@ pip install numpy matplotlib pandas
 
 ---
 
-## ▶️ Running the Code
+## Running the Code
 
 Make sure to adjust file paths in the script to match your local environment.
 
@@ -57,7 +57,7 @@ This will:
 
 ---
 
-## 📊 Key Outputs
+## Key Outputs
 
 - **Flow-density plots**: `density_vs_flow.png`
 - **Speed-density plots**: `density_vs_speed.png`
@@ -67,7 +67,7 @@ This will:
 
 ---
 
-## 🧠 Model Notes
+## Model Notes
 
 ### NaSch Model
 - Discrete time, discrete space
@@ -81,7 +81,7 @@ This will:
 
 ---
 
-## 📚 Citation
+## Citation
 
 If you use this code, please cite:
 
@@ -89,8 +89,8 @@ If you use this code, please cite:
 
 ---
 
-## 📬 Contact
+## Contact
 
 Merel de Leur  
-[Your email address]  
-[Your LinkedIn or personal site, if applicable]
+mjm.deleur@gmail.com
+
