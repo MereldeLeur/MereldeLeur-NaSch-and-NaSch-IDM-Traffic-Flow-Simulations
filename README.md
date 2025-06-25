@@ -20,9 +20,9 @@ This repository contains the Python code used for the traffic flow simulations i
 ## Structure
 
 ```
-Thesis Cra Simulations.py          # Main script: runs both NaSch and NaSch+IDM models
-NaSch Data/                    # Output CSVs from NaSch simulation
-NaSch Graphs/                  # Plots from NaSch analysis
+Thesis Car Simulations.py     # Main script: runs both NaSch and NaSch+IDM models
+NaSch Data/                   # Output CSVs from NaSch simulation
+NaSch Graphs/                 # Plots from NaSch analysis
 NaSch + IDM Data/             # Output CSVs from NaSch+IDM simulation
 NaSch + IDM Graphs/           # Plots from NaSch+IDM analysis
 ```
@@ -126,8 +126,7 @@ The code runs a complete simulation and post-processing pipeline:
 
 ### 3. **Fundamental Diagram Analysis**
 - From velocity data:
-  - Compute **global mean speed** (space-mean) and **global flow** as:  
-    `flow = density × speed`
+  - Compute **global mean speed** (space-mean) and **global flow** 
 - Plot:
   - Speed vs. Density
   - Flow vs. Density
